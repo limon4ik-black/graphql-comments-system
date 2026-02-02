@@ -20,3 +20,4 @@ CREATE INDEX idx_comments_post_id ON comments(post_id);
 CREATE INDEX idx_comments_parent_id ON comments(parent_id);
 
 -- migrate -path migrations -database "postgres://graphql:graphql@localhost:5432/graphql_comments?sslmode=disable" up
+-- typo sur
